@@ -1,0 +1,64 @@
+.walletInsightContainer{
+    display: flex;
+    flex-direction: column;
+
+    .totalBlance{
+        margin: 20px 0 0 40px;
+        display: flex;
+        flex-direction: column;
+
+        .head{
+            font-size: 22px;
+            color: rgb(158, 157, 157);
+        }
+
+        .number{
+            margin-top: 10px;
+            font-size: 45px;
+        }
+    }
+    .chart{
+        margin: 50px 0 0 40px;
+        height: 400px;
+        .chartHead{
+            padding-bottom: 40px;
+            font-size: 25px;
+            color: rgb(121, 121, 121);
+        }
+        .chartComponent{
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1650px) {
+    .walletInsightContainer{
+    .totalBlance{
+        margin: 20px 0 0 40px;
+        display: flex;
+        flex-direction: column;
+
+        .head{
+            font-size: 18px;
+            color: rgb(158, 157, 157);
+        }
+
+        .number{
+            margin-top: 10px;
+            font-size: 36px;
+        }
+    }
+    .chart{
+        margin: 50px 0 0 40px;
+        height: 400px;
+        .chartHead{
+            padding-bottom: 40px;
+            font-size: 21px;
+            color: rgb(121, 121, 121);
+        }
+        .chartComponent{
+            width: 100%;
+        }
+    }
+}
+}

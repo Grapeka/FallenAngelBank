@@ -1,0 +1,56 @@
+.accountContainer {
+  border-radius: 44px;
+  background: linear-gradient(-140deg, #C56CD6, #3425AF);
+  -webkit-box-shadow: 1px 7px 7px -5px #3425AF;
+          box-shadow: 1px 7px 7px -5px #3425AF;
+  width: 59%;
+  height: 15.5vw;
+  color: white;
+}
+
+.accountInformation {
+  margin-top: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.accountInformation .balance {
+  font-size: 35px;
+  margin: 11% 0 0 9%;
+}
+
+.accountInformation .accountNumber {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 15% 0 0 9%;
+}
+
+@media only screen and (max-width: 1650px) {
+  .accountInformation {
+    margin-top: 7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .accountInformation .balance {
+    font-size: 25px;
+    margin: 11% 0 0 9%;
+  }
+  .accountInformation .accountNumber {
+    font-size: 16px;
+    font-weight: 200;
+    margin: 16% 0 0 9%;
+  }
+}
+/*# sourceMappingURL=account.module.css.map */

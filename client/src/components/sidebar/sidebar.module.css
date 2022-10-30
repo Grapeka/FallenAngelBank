@@ -1,0 +1,58 @@
+.sidebar {
+  width: 13vw;
+  background-color: #fbfbff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+
+.sidebar .sidebarWrapper {
+  padding: 20px;
+  color: #555;
+}
+
+.sidebar .sidebarWrapper .sidebarMenu {
+  margin-bottom: 10px;
+}
+
+.sidebar .sidebarWrapper .sidebarMenu .sidebarTitle {
+  font-size: 13px;
+  color: #bbbaba;
+}
+
+.sidebar .sidebarWrapper .sidebarMenu .sidebarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.sidebar .sidebarWrapper .sidebarMenu .sidebarList li {
+  width: 100%;
+}
+
+.sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem {
+  padding: 7px 0 6px 5px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+.sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem:hover {
+  width: 150px;
+  background-color: #f0f0ff;
+}
+
+.sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem .sidebarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+}
+
+.sidebar .sidebarWrapper .sidebarMenu .sidebarList .active {
+  width: 150px;
+  background-color: #f0f0ff;
+}
+/*# sourceMappingURL=sidebar.module.css.map */

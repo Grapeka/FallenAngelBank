@@ -1,0 +1,84 @@
+.theForm {
+  width: 78.6%;
+  height: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3% auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5%;
+  position: relative;
+}
+
+.theForm .head {
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.theForm .currencyPair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 3%;
+          column-gap: 3%;
+}
+
+.theForm .currencyPair .from, .theForm .currencyPair .to {
+  width: 100%;
+}
+
+.theForm .currencyPair .symbol {
+  font-size: 53px;
+  margin: auto 0;
+}
+
+.theForm .currencyPair .symbol:hover {
+  cursor: pointer;
+  color: #21219c;
+}
+
+.theForm .exchangeRate {
+  font-size: 18px;
+  display: none;
+}
+
+.theForm .active {
+  display: inline-block;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+  color: #aaaaaa;
+}
+
+.theForm .button {
+  position: absolute;
+  bottom: 16%;
+  width: 98%;
+}
+
+.theForm .button Button {
+  width: 100%;
+}
+
+.theForm input[type=text], .theForm input[type=number], .theForm select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=userInputSwap.module.css.map */

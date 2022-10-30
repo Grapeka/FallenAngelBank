@@ -1,0 +1,65 @@
+.theForm{
+    width: 78.6%;
+    height: 100%;
+    margin: auto; 
+    display: flex;
+    margin: 3% auto;
+    flex-direction: column;
+    row-gap: 5%;
+    position: relative;
+
+    .head{
+        font-size: 30px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .currencyPair{
+        display: flex;
+        flex-direction: row;
+        justify-content:  space-between;
+        column-gap: 3%;
+        .from,.to{
+            width: 100%;
+        }
+        .symbol{
+            font-size: 53px;
+            margin: auto 0;
+
+            &:hover{     
+                cursor: pointer;
+                color: rgb(33, 33, 156);
+            }
+        }
+    }
+
+    .exchangeRate{
+        font-size: 18px;
+        display: none;
+    }
+    
+    .active{
+        display: inline-block;
+        transition: ease-in 0.3s;
+        color: rgb(170, 170, 170);
+    }
+
+    .button{
+        position: absolute;
+        bottom: 16%;
+        width: 98%;
+
+        Button{
+            width: 100%;
+        }
+    }
+    
+    input[type=text],  input[type=number], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+}

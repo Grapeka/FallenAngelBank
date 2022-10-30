@@ -1,0 +1,94 @@
+.pageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  background-color: #fbfbff;
+  -webkit-user-select: text;
+  /* Safari */
+  -ms-user-select: text;
+  /* IE 10 and IE 11 */
+  -moz-user-select: text;
+       user-select: text;
+  /* Standard syntax */
+}
+
+.pageContainer .walletContainer {
+  margin-top: 72.5px;
+  background-color: #fbfbff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 48%;
+  height: 80vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pageContainer .walletContainer .selectContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 62%;
+}
+
+.pageContainer .walletContainer .selectContainer .radioSelector {
+  width: 25%;
+  color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 8%;
+          column-gap: 8%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+}
+
+.pageContainer .walletContainer .selectContainer .radioSelector .bullet {
+  font-size: 55px;
+  color: #dfdfdf;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
+  /* Standard syntax */
+}
+
+.pageContainer .walletContainer .selectContainer .radioSelector .bullet:hover {
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #3425AF;
+}
+
+.pageContainer .walletContainer .selectContainer .radioSelector .active {
+  color: #3425AF;
+}
+
+.pageContainer .insight {
+  width: 52%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=wallet.module.css.map */

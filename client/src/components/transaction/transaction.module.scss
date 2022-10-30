@@ -1,0 +1,171 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .insideContainer{
+        display: flex;
+        flex-direction: column;
+        width: 88.7%;
+        height: 77.7vh;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+
+        .headBar{
+            background-color: #6c7ae0;
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            width: 100%;
+            height: 47.5px;
+
+            tbody{
+                tr{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    td{    
+                        width: 16.666%;
+                        color: white;
+                        font-size: 17px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        span{     
+                        }
+                    }
+                }
+            }
+        }
+        .kuyDiv{
+            overflow-y: scroll;
+            height: 90%;
+            width: 100%;
+            .contents{ 
+                width: 100%;
+            tbody{
+                tr{
+                    width: 100%;
+                    height: 49px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    td{    
+                        width: 16.666%;
+                        color: #52575c;
+                        font-size: 17px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        span{     
+                        }
+                    }
+            }
+            .colour{
+                background-color: #f3f4fa;
+            }
+        
+            .unColour{
+                background-color: white;
+            }
+        }
+    
+        }
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 1650px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+        .insideContainer{
+            display: flex;
+            flex-direction: column;
+            width: 88.7%;
+            height: 77.7vh;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    
+            .headBar{
+                background-color: #6c7ae0;
+                border-top-left-radius: 11px;
+                border-top-right-radius: 11px;
+                width: 100%;
+                height: 47.5px;
+    
+                tbody{
+                    tr{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+    
+                        td{    
+                            width: 16.666%;
+                            color: white;
+                            font-size: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+    
+                            span{     
+                            }
+                        }
+                    }
+                }
+            }
+            .kuyDiv{
+                overflow-y: scroll;
+                height: 90%;
+                width: 100%;
+                .contents{ 
+                    width: 100%;
+                tbody{
+                    tr{
+                        width: 100%;
+                        height: 49px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+    
+                        td{    
+                            width: 16.666%;
+                            color: #52575c;
+                            font-size: 15px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            
+                            span{     
+                            }
+                        }
+                }
+                .colour{
+                    background-color: #f3f4fa;
+                }
+            
+                .unColour{
+                    background-color: white;
+                }
+            }
+        
+            }
+            }
+            
+        }
+    }
+}

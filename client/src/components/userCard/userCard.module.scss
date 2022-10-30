@@ -1,0 +1,86 @@
+.userCardContainer {
+    margin: auto;
+    margin-top: 2.5%;
+    width: 78.6%;
+    height: 13.8vw;
+    border-radius: 44px;
+    background:linear-gradient(-120deg, #4d669c, #404592, #000066);
+    box-shadow: 1px 7px 7px -5px #3425AF;
+    color: white;
+    
+    -webkit-user-select: text; /* Safari */
+    -ms-user-select: text; /* IE 10 and IE 11 */
+     user-select: text; /* Standard syntax */
+    
+
+    .cardInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 10.5% 0 0 8%;
+
+        .logo{
+            width: 66px;
+            height: 2.5vw;
+            line-height: 10em;
+            vertical-align: middle;
+            isolation: isolate;
+            position: relative;
+            display: inline-block;
+
+            &:before, &:after{
+                border-radius: 50%;
+                content: "";
+                display: inline-block;
+                height: 40px;
+                position: absolute;
+                width: 40px;
+            }
+            &:before{
+                background-color: #eb001b;
+                left: 0;
+                top: 0;
+            }
+            &:after {
+                background-color: #f79e1b;
+                mix-blend-mode: hard-light;
+                right: 0;
+                top: 0;
+              }
+        }
+
+        .cardNumber{
+            margin-top: 5%;
+            font-size: 30px;
+
+        }
+
+        .security{
+            margin-top: 10%;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 1615px) {
+    .userCardContainer {
+
+    .cardInfo{
+
+        .cardNumber{
+            margin-top: 7%;
+            font-size: 24px;
+
+        }
+
+        .security{
+            margin-top: 10%;
+        }
+    }
+
+    
+}}

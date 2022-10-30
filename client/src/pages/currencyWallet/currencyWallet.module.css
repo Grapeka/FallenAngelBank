@@ -1,0 +1,24 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  row-gap: 2%;
+  margin: 20px 20px 100px 20px;
+}
+
+.container .insideContainer {
+  width: 87%;
+  height: 77vh;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=currencyWallet.module.css.map */

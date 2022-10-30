@@ -1,0 +1,89 @@
+.userCardContainer {
+  margin: auto;
+  margin-top: 2.5%;
+  width: 78.6%;
+  height: 13.8vw;
+  border-radius: 44px;
+  background: linear-gradient(-120deg, #4d669c, #404592, #000066);
+  -webkit-box-shadow: 1px 7px 7px -5px #3425AF;
+          box-shadow: 1px 7px 7px -5px #3425AF;
+  color: white;
+  -webkit-user-select: text;
+  /* Safari */
+  -ms-user-select: text;
+  /* IE 10 and IE 11 */
+  -moz-user-select: text;
+       user-select: text;
+  /* Standard syntax */
+}
+
+.userCardContainer .cardInfo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10.5% 0 0 8%;
+}
+
+.userCardContainer .cardInfo .logo {
+  width: 66px;
+  height: 2.5vw;
+  line-height: 10em;
+  vertical-align: middle;
+  isolation: isolate;
+  position: relative;
+  display: inline-block;
+}
+
+.userCardContainer .cardInfo .logo:before, .userCardContainer .cardInfo .logo:after {
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 40px;
+  position: absolute;
+  width: 40px;
+}
+
+.userCardContainer .cardInfo .logo:before {
+  background-color: #eb001b;
+  left: 0;
+  top: 0;
+}
+
+.userCardContainer .cardInfo .logo:after {
+  background-color: #f79e1b;
+  mix-blend-mode: hard-light;
+  right: 0;
+  top: 0;
+}
+
+.userCardContainer .cardInfo .cardNumber {
+  margin-top: 5%;
+  font-size: 30px;
+}
+
+.userCardContainer .cardInfo .security {
+  margin-top: 10%;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 1615px) {
+  .userCardContainer .cardInfo .cardNumber {
+    margin-top: 7%;
+    font-size: 24px;
+  }
+  .userCardContainer .cardInfo .security {
+    margin-top: 10%;
+  }
+}
+/*# sourceMappingURL=userCard.module.css.map */

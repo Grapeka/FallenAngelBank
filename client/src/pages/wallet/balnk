@@ -1,0 +1,64 @@
+import { useState, useEffect } from "react";
+import Account from "../../components/account/Account";
+import classes from "./wallet.module.scss";
+import Select from "react-select";
+
+const DUMMY_ACCOUNT = [
+  {
+    accountNumber: 4442221112,
+    ownerName: "Hakeem Maka",
+    balance: 1223845.25,
+  },
+  {
+    accountNumber: 8920183721,
+    ownerName: "Kaka Macro",
+    balance: 6293827.75,
+  },
+  {
+    accountNumber: 1662627381,
+    ownerName: "Ronald Do",
+    balance: 4881847.21,
+  },
+  {
+    accountNumber: 5281627381,
+    ownerName: "Jaka Trump",
+    balance: 9281847.21,
+  },
+];
+const Wallet = () => {
+  const [selectedData, setSelectedData] = useState(DUMMY_ACCOUNT);
+
+  const handleSelect = (e) => {
+    const x = DUMMY_ACCOUNT.filter((element) => {
+      return element.accountNumber == e.value;
+    });
+    setSelectedData(x);
+    console.log(selectedData);
+    console.log("Under setState");
+  };
+  let accounts = [];
+
+  const run = () => {
+    for (var i = 0; i < DUMMY_ACCOUNT.length; i++) {
+      accounts[i] = {
+        value: DUMMY_ACCOUNT[i].accountNumber,
+        label: DUMMY_ACCOUNT[i].accountNumber,
+      };
+    }
+  };
+  run();
+  return (
+    <div className={classes.container}>
+      <Account accountData={selectedData} />
+      <div className={classes.selectContainer}>
+        <Select
+          options={accounts}
+          onChange={handleSelect}
+          placeholder="Select account"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Wallet;

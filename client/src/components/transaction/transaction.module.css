@@ -1,0 +1,224 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container .insideContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 88.7%;
+  height: 77.7vh;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.container .insideContainer .headBar {
+  background-color: #6c7ae0;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  width: 100%;
+  height: 47.5px;
+}
+
+.container .insideContainer .headBar tbody tr {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .insideContainer .headBar tbody tr td {
+  width: 16.666%;
+  color: white;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .insideContainer .kuyDiv {
+  overflow-y: scroll;
+  height: 90%;
+  width: 100%;
+}
+
+.container .insideContainer .kuyDiv .contents {
+  width: 100%;
+}
+
+.container .insideContainer .kuyDiv .contents tbody tr {
+  width: 100%;
+  height: 49px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .insideContainer .kuyDiv .contents tbody tr td {
+  width: 16.666%;
+  color: #52575c;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .insideContainer .kuyDiv .contents tbody .colour {
+  background-color: #f3f4fa;
+}
+
+.container .insideContainer .kuyDiv .contents tbody .unColour {
+  background-color: white;
+}
+
+@media only screen and (max-width: 1650px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .container .insideContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 88.7%;
+    height: 77.7vh;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  .container .insideContainer .headBar {
+    background-color: #6c7ae0;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    width: 100%;
+    height: 47.5px;
+  }
+  .container .insideContainer .headBar tbody tr {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .insideContainer .headBar tbody tr td {
+    width: 16.666%;
+    color: white;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .insideContainer .kuyDiv {
+    overflow-y: scroll;
+    height: 90%;
+    width: 100%;
+  }
+  .container .insideContainer .kuyDiv .contents {
+    width: 100%;
+  }
+  .container .insideContainer .kuyDiv .contents tbody tr {
+    width: 100%;
+    height: 49px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .insideContainer .kuyDiv .contents tbody tr td {
+    width: 16.666%;
+    color: #52575c;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .insideContainer .kuyDiv .contents tbody .colour {
+    background-color: #f3f4fa;
+  }
+  .container .insideContainer .kuyDiv .contents tbody .unColour {
+    background-color: white;
+  }
+}
+/*# sourceMappingURL=transaction.module.css.map */
