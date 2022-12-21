@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-//import Sidebar from "./components/sidebar/Sidebar";
-import Topbar from "./components/topbar/Topbar";
-import SignIn from "./pages/signIn/SignIn";
-import SignUp from "./pages/signUp/SignUp";
-import UnallowedModal from "./pages/unallowedModal/UnallowedModal";
-import AppContent from "./components/appContent/AppContent";
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Topbar from './components/topbar/Topbar';
+import SignIn from './pages/signIn/SignIn';
+import SignUp from './pages/signUp/SignUp';
+import UnallowedModal from './pages/unallowedModal/UnallowedModal';
+import AppContent from './components/appContent/AppContent';
 
-import "./App.css";
+import './App.css';
 
 function App() {
   const [continueData, setContinueData] = useState(null);
@@ -23,22 +22,8 @@ function App() {
         setResizedStyle(false);
       }
     }
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
   });
-
-  /* const getTotalCurrency = (citizenId) => {
-    Axios.post(
-      "https://fallenangel-bank-api.herokuapp.com/customer/currency/balance",
-      {
-        headers: { "Access-Control-Allow-Origin": "*" },
-      },
-      {
-        citizenId: citizenId,
-      }
-    ).then((res) => {
-      console.log(res.data);
-    });
-  }; */
 
   return (
     <>
