@@ -19,7 +19,7 @@ Admin
 
 # Technologies
 
-The following core technologies were used to develop the backend for this platform:
+The following core technologies were used to develop this website:
 
 - Node.js: Node.js was used as the JavaScript runtime for building the backend API.
 - Express.js: Express.js was used as the web framework for building the API.
