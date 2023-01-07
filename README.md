@@ -15,7 +15,7 @@ Customer
 Admin
 
 - Login and logout of their account
-- See reports of customers' behavior
+- See reports of customers' data
 
 # Technologies
 
